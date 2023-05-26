@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>404: This page could not be found</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+</head>
+
+<body>
+
+  <div class="topnav">
+    <img class="logo" src="progLogo.webp" alt="" height="10px">
+    <a href="/about.html" id="lastA">About</a>
+    <a href="/profile.html">Profile</a>
+    <a href="/index.html">Home</a>
+  </div>
+  <div class="pageContent">
+    <h1 class="errorCode">404</h1>
+    <h1>This page could not be found.</h1>
+  </div>
+  <script>
+    VANTA.NET({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xffffff,
+      backgroundColor: 0x150f1e,
+      points: 20.00,
+      maxDistance: 21.00,
+      spacing: 16.00,
+      showDots: false
+    })
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>
